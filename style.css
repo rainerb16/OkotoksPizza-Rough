@@ -2,6 +2,9 @@ body {
   background-color: #ddcfc5;
 }
 
+
+/* Navbar */
+
 nav {
   border-bottom: 1px #ab0421;
 }
@@ -15,8 +18,10 @@ nav {
   list-style-type: none;
   padding-right: 0;
   font-family: 'Noto Sans HK', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
+
+/* Base Styles */
 
 #page-container {
   text-align: center;
@@ -25,8 +30,22 @@ nav {
 h1, h3 {
   color: #ab0421;
   font-family: 'Noto Sans HK', sans-serif;
-  text-decoration: underline overline;
 }
+
+p {
+  font-size: 16px;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+a {
+  color: #ab0421;
+}
+
+a, :after {
+  color: #47000c;
+}
+
+/* Home Page */
 
 #photos-container {
   text-align: center;
@@ -38,10 +57,14 @@ h1, h3 {
   text-align: center;
 }
 
-a {
-  color: #ab0421;
+/* About Us Page */
+
+#contact-anchor, #about-text, #about-photo, #about-yelp-contact {
+  text-align: center;
+  padding: 20px;
 }
 
-a, :after {
-  color: #47000c;
+footer {
+  text-align: center;
+  padding: 20px;
 }
