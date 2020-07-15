@@ -1,10 +1,21 @@
-h1 {
-  color: darkred;
-
+body {
+  background-color: #ddcfc5;
 }
 
-section {
-  display: flex;
-  padding: 2rem;
-  margin: 1rem;
+#page-container {
+  text-align: center;
+}
+h1 {
+  color: #ab0421;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+#photos-container {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+#video-container {
+  text-align: center;
 }
