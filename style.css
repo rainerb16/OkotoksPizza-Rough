@@ -5,7 +5,8 @@ body {
 #page-container {
   text-align: center;
 }
-h1 {
+
+h1, h3 {
   color: #ab0421;
   font-family: 'Noto Sans HK', sans-serif;
   text-decoration: underline overline;
