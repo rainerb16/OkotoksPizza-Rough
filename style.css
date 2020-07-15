@@ -8,6 +8,7 @@ body {
 h1 {
   color: #ab0421;
   font-family: 'Noto Sans HK', sans-serif;
+  text-decoration: underline overline;
 }
 
 #photos-container {
