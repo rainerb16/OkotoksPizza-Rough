@@ -59,9 +59,23 @@ a, :after {
 
 /* About Us Page */
 
-#contact-anchor, #about-text, #about-photo, #about-yelp-contact {
+#about-photo, #about-yelp-contact{
   text-align: center;
   padding: 20px;
+}
+
+.contact-anchor {
+  text-align: center;
+}
+
+article {
+  text-align: justify;
+  padding: 20px;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+#contact {
+  text-align: center;
 }
 
 footer {
