@@ -1,23 +1,28 @@
-body {
-  background-color: #ddcfc5;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  background-color: whitesmoke;
+  font-family: 'Noto Sans HK', sans-serif;
+}
 
 /* Navbar */
 
+#logo {
+  float: left;
+}
 nav {
   border-bottom: 1px #ab0421;
+  text-align: center;
 }
 
 .menu {
-  display: inline-block;
-  padding: 10px;
-}
-
-.menu ul {
-  list-style-type: none;
-  padding-right: 0;
-  font-family: 'Noto Sans HK', sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
   font-size: 18px;
 }
 
@@ -29,20 +34,25 @@ nav {
 
 h1, h2, h3 {
   color: #ab0421;
-  font-family: 'Noto Sans HK', sans-serif;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
-  font-family: 'Noto Sans HK', sans-serif;
 }
 
 a {
   color: #ab0421;
+  
 }
 
 a, :after {
   color: #47000c;
+}
+
+a:hover {
+  font-size: 130%;
+  transform: scale(1);
 }
 
 /* Home Page */
@@ -57,21 +67,24 @@ a, :after {
   text-align: center;
 }
 
+
 /* About Us Page */
 
-#about-photo, #about-yelp-contact{
-  text-align: center;
-  padding: 20px;
-}
-
-.contact-anchor {
-  text-align: center;
+.about-container {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
 }
 
 article {
-  text-align: justify;
   padding: 20px;
-  font-family: 'Noto Sans HK', sans-serif;
+}
+
+#about-yelp{
+  text-align: center;
+  padding: 20px;
 }
 
 #contact {
