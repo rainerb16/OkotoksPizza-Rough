@@ -22,7 +22,6 @@ body {
   align-items: center;
   justify-items: center;
   font-size: 16px;
-  position: sticky;
 }
 
 .menu-button{
@@ -42,9 +41,10 @@ body {
 }
 
 
+
 /* Base Styles */
 
-h1, h2 {
+h1, h2, h3 {
   color: #ab0421;
   text-align: center;
   font-family: 'Poiret One', cursive;
@@ -56,7 +56,7 @@ h3 + p {
 }
 
 a:link {
-  color: #ab0421;
+  color: #bb3047;
   text-decoration: none;
   padding: 0.5em;
 }
@@ -83,6 +83,15 @@ p {
   text-align: center;
 }
 
+.container-border {
+  border: #47000c solid 1px;
+  margin: 5rem;
+}
+
+img {
+  padding: 0.5rem;
+}
+
 /* Home Page */
 
 .photos-container {
@@ -96,6 +105,41 @@ p {
 .video-container {
   text-align: center;
   padding: 20px;
+}
+
+/* Menu Page */
+
+#pizza-menu {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.pizza {
+  border: #47000c 1px solid;
+  padding: 1rem;
+  text-align: center;
+  overflow-wrap: break-word;
+  align-items: center;
+}
+
+#pizza-item {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover
+}
+
+button {
+  background: #47000c;
+  color: whitesmoke;
+  border-radius: 5%;
+  padding: 5px;
+  font-size: 16px;
 }
 
 /* Catering Page */
