@@ -1,9 +1,9 @@
 html {
   scroll-behavior: smooth;
+  background-color: whitesmoke;
 }
 
 body {
-  background-color: whitesmoke;
   font-family: 'Noto Sans HK', sans-serif;
   max-width: 100%;
   height: auto;
@@ -38,46 +38,54 @@ body {
 }
 
 .menu-button:hover {
-  opacity: 0.4;
-}
-
-span{
-  font-size: x-large;
+  opacity: 0.5;
 }
 
 
 /* Base Styles */
 
-#page-container {
+h1, h2 {
+  color: #ab0421;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+h3 + p {
+  font-weight: bold;
   text-align: center;
 }
 
-h1, h2, h3 {
+a:link {
   color: #ab0421;
-  text-align: center;
+  text-decoration: none;
+  padding: 0.5em;
 }
 
-p {
-  font-size: 16px;
+a:visited {
+  color: grey;
 }
 
-a {
-  color: #ab0421;
-  
+a:active {
+  color: whitesmoke;
 }
 
-a, :after {
+a:after {
   color: #47000c;
 }
 
 a:hover {
   font-size: 125%;
   transform: scale(1);
+  color: #ab0421;
+}
+
+p {
+  text-align: center;
 }
 
 /* Home Page */
 
-#photos-container {
+.photos-container {
   text-align: center;
   width: 100%;
   align-items: center;
@@ -85,14 +93,20 @@ a:hover {
   padding: 20px;
 }
 
-#video-container {
+.video-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Catering Page */
+
+#catering-container {
   text-align: center;
 }
 
-
 /* About Us Page */
 
-.about-container {
+#about-container {
   display: grid;
   grid-template-columns: 3fr 3fr;
   width: 100%;
@@ -100,8 +114,9 @@ a:hover {
   justify-items: center;
 }
 
-article {
-  padding: 20px;
+article p {
+  padding: 10px;
+  text-align: left;
 }
 
 #about-yelp{
@@ -113,7 +128,16 @@ article {
   text-align: center;
 }
 
+/* Contact */
+
 footer {
   text-align: center;
   padding: 20px;
+}
+
+footer > p {
+  text-decoration: none;
+  background-color: #47000c;
+  color: whitesmoke;
+  padding: 1em;
 }
