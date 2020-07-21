@@ -37,7 +37,7 @@ body {
 }
 
 .menu-button:hover {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 
@@ -56,7 +56,7 @@ h3 + p {
 }
 
 a:link {
-  color: #bb3047;
+  color: whitesmoke;
   text-decoration: none;
   padding: 0.5em;
 }
@@ -76,7 +76,7 @@ a:after {
 a:hover {
   font-size: 125%;
   transform: scale(1);
-  color: #ab0421;
+  color: #cfc5c7;
 }
 
 p {
@@ -84,8 +84,7 @@ p {
 }
 
 .container-border {
-  border: #47000c solid 1px;
-  margin: 5rem;
+  margin-top: 10rem;
 }
 
 img {
@@ -136,7 +135,7 @@ img {
 }
 
 button {
-  background: #47000c;
+  background: #9e132a;
   color: whitesmoke;
   border-radius: 5%;
   padding: 5px;
@@ -172,6 +171,18 @@ article p {
 
 #contact {
   text-align: center;
+}
+
+#contact-link {
+  background: #47000c;
+  border: black solid 1px;
+  border-radius: 5%;
+  padding: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 3px 5px #bb3047;
+  margin: 10px;
 }
 
 .address {
