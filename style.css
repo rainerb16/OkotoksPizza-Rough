@@ -94,12 +94,16 @@ p {
   text-align: center;
 }
 
-.container-border {
-  margin-top: 10rem;
+#container-border {
+  margin-top: 10%;
 }
 
 img {
   padding: 0.5rem;
+}
+
+li {
+  list-style: none;
 }
 
 /* Home Page */
@@ -118,7 +122,7 @@ img {
 }
 
 #specials-container {
-  padding: 20px;;
+  padding: 20px;
 }
 
 #specials-items {
@@ -133,7 +137,7 @@ img {
 /* Menu Page */
 
 #pizza-menu {
-  margin: 0 auto;
+  margin: 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
   grid-gap: 1em;
@@ -211,7 +215,7 @@ article p {
 
 .address {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   align-items: center;
   justify-items: center;
