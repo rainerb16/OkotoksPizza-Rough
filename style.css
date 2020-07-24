@@ -1,18 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
-  background-color: whitesmoke;
+  background-color:rgb(226, 202, 202);
 }
 
 body {
   font-family: 'Noto Sans HK', sans-serif;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
-/* Navbar */
+
+/* Navigation */
 
 #logo {
-  float: left;
+  position: relative;
 }
 
 .menu {
@@ -21,15 +27,18 @@ body {
   width: 100%;
   align-items: center;
   justify-items: center;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+#title {
+  font-size: xxx-large;
 }
 
 .menu-button{
   background: #47000c;
   border: black solid 1px;
   border-radius: 5%;
-  padding: 5px;
-  color: whitesmoke;
+  color: white;
   text-decoration: none;
   text-align: center;
   width: 65%;
@@ -48,6 +57,7 @@ h1, h2, h3 {
   color: #ab0421;
   text-align: center;
   font-family: 'Poiret One', cursive;
+  padding: 10px;
 }
 
 h3 + p {
@@ -62,7 +72,7 @@ a:link {
 }
 
 a:visited {
-  color: grey;
+  color: lightgray;
 }
 
 a:active {
@@ -93,12 +103,17 @@ img {
 
 /* Home Page */
 
-.photos-container {
-  text-align: center;
-  width: 100%;
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  padding: 20px;
+  width: 100%;
+  height: 80vh;
+  background-image: url(images/wood-header.jpg);
+  background-repeat: no-repeat;
+  font-size: x-large;
+  border: 10px solid #ab0421;
 }
 
 .video-container {
@@ -106,20 +121,29 @@ img {
   padding: 20px;
 }
 
+#specials-items {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+  grid-gap: 30px;
+  justify-items: center;
+  padding: 2em;
+}
+
 /* Menu Page */
 
 #pizza-menu {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
-  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+  grid-gap: 1em;
   justify-items: center;
 }
 
 
 .pizza {
   border: #47000c 1px solid;
-  padding: 1rem;
+  padding: 1em;
   text-align: center;
   overflow-wrap: break-word;
   align-items: center;
@@ -200,6 +224,9 @@ article p {
 
 /* Contact */
 
+#contact {
+  padding: 1em;
+}
 footer {
   text-align: center;
   padding: 20px;
