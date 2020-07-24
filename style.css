@@ -9,9 +9,10 @@ html {
 }
 
 body {
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 100%;
   height: auto;
+  color: #47000c;
 }
 
 
@@ -56,7 +57,7 @@ body {
 h1, h2, h3 {
   color: #ab0421;
   text-align: center;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
   padding: 10px;
 }
 
@@ -72,11 +73,11 @@ a:link {
 }
 
 a:visited {
-  color: lightgray;
+  color: rgb(214, 110, 110);
 }
 
 a:active {
-  color: whitesmoke;
+  color: rgb(255, 251, 251);
 }
 
 a:after {
@@ -113,12 +114,7 @@ img {
   background-image: url(images/wood-header.jpg);
   background-repeat: no-repeat;
   font-size: x-large;
-  border: 10px solid #ab0421;
-}
-
-.video-container {
-  text-align: center;
-  padding: 20px;
+  border: 8px solid #ab0421;
 }
 
 #specials-items {
@@ -189,7 +185,8 @@ article p {
 
 #about-yelp{
   text-align: center;
-  padding: 20px;
+  color: #47000c;
+  text-decoration: underline;
 }
 
 #contact {
