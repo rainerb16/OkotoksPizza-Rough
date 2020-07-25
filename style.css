@@ -13,6 +13,7 @@ body {
   width: 100%;
   height: auto;
   color: #47000c;
+  background-image: url(images/wood-header.jpg);
 }
 
 
@@ -113,25 +114,16 @@ li {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  width: 100%;
-  height: 80vh;
-  background-image: url(images/wood-header.jpg);
-  background-repeat: no-repeat;
   font-size: x-large;
-  border: 8px solid #ab0421;
-}
-
-#specials-container {
-  padding: 20px;
 }
 
 #specials-items {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
-  grid-gap: 30px;
+  grid-gap: 20px;
   justify-items: center;
-  padding: 2em;
+  padding: 1em;
 }
 
 /* Menu Page */
