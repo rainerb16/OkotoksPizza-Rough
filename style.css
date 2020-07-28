@@ -12,18 +12,18 @@
 
 @keyframes homeTitle {
   0% {
-    height: 15%;
+    height: 20%;
   }
-  20% {
+  25% {
     height: 30%;
   }
   40% {
     height: 40%;
   }
-  60% {
+  65% {
     height: 50%
   }
-  80% {
+  85% {
     height: 60%
   }
   100% {
@@ -149,27 +149,38 @@ li {
   justify-items: center;
   font-size: x-large;;
   width: 100%;
-  column-gap: 20px;
-  padding: 20px;
+  padding: 40px;
   background-color: #47000c;
+  box-shadow: 10px 0px 15px 0px #866c70;
+}
+
+.menu-button-banner {
+  background: #47000c;
+  border: black solid 1px;
+  border-radius: 5%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 3px 5px #bb3047;
+  font-size: 14px;
 }
 
 .home-title, iframe {
-  padding: 10px;
+  padding: 50px;
   text-align: center;
 }
 
 #home-title-text {
   overflow: hidden;
   color: whitesmoke;
-  height: 25%;
+  height: 20%;
   font-family: 'Kalam', cursive;
 }
 
 #home-title {
   text-align: center;
   animation-name: homeTitle;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-timing-function: linear;
 }
 
@@ -203,6 +214,7 @@ li {
   text-align: center;
   margin: 5%;
   font-family: 'Kalam', cursive;
+  box-shadow: 10px 0px 15px 0px #866c70;
 }
 
 .pizza {
