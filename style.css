@@ -242,8 +242,26 @@ button {
 
 /* Catering Page */
 
-#catering-container {
+.catering-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  margin-bottom: 5vh;
+}
+
+#catering-content {
+  text-align: justify;
+  width: 80%;
+  padding: 20px;
+}
+
+#catering-image {
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 5px 0px 7px 0px #866c70;
 }
 
 /* About Us Page */
@@ -255,6 +273,11 @@ button {
   align-items: center;
   justify-items: center;
   padding: 20px;
+}
+
+#about-photo {
+  border: 1px solid black;
+  box-shadow: 5px 0px 7px 0px #866c70;
 }
 
 article p {
