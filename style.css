@@ -36,7 +36,6 @@ iframe {
 }
 
 
-
   /* TABLET */
 
 @media only screen and (min-width: 600px) {
@@ -115,24 +114,41 @@ iframe {
   }
 }
 
+@-webkit-keyframes steam-one {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+}
+
+@keyframes steam-one {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+}
+
+@-webkit-keyframes steam-two {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.3;}
+  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+}
+
+@keyframes steam-two {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.35;}
+  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+}
+
 @keyframes homeTitle {
-  0% {
+  20% {
     height: 20%;
-  }
-  25% {
-    height: 30%;
   }
   40% {
     height: 40%;
   }
-  65% {
-    height: 50%
+  60% {
+    height: 60%;
   }
-  85% {
-    height: 60%
+  80% {
+    height: 80%
   }
   100% {
-    height: 70%
+    height: 100%
   }
 }
 
@@ -237,10 +253,46 @@ li {
 
 /* Home Page */
 
+#steam-wrapper {
+  margin-top: 50px;
+  margin-left: 45%;
+}
+
+.steam {
+  position: absolute;
+  height: 75px;
+  width: 100px;
+  border-radius: 70%;
+  background-color: rgb(255, 253, 253);
+  margin-left: 30px;
+  z-index: 0;
+  opacity: 0;
+}
+
+#steam-one {
+  -webkit-animation: steam-one 4s ease-out infinite;
+  animation: steam-one 4s ease-out infinite;
+}
+
+#steam-three {
+  -webkit-animation: steam-one 4s ease-out 1s infinite;
+  animation: steam-one 4s ease-out 1s infinite;
+}
+
+#steam-two {
+  -webkit-animation: steam-two 4s ease-out 0.5s infinite;
+  animation: steam-two 4s ease-out 0.5s infinite;
+}
+
+#steam-four {
+  -webkit-animation: steam-two 4s ease-out 1.5s infinite;
+  animation: steam-two 4s ease-out 1.5s infinite;
+}
+
 #home-title-text {
   overflow: hidden;
   color: whitesmoke;
-  height: 30%;
+  height: 20%;
   font-family: 'Kalam', cursive;
 }
 
@@ -261,6 +313,7 @@ li {
   background-color: #47000c;
   box-shadow: 15px 0px 20px 0px #57494b;
   padding: 10vh 3vh 10vh 3vh;
+  margin: 0;
 }
 
 #wrapper {
@@ -434,6 +487,7 @@ article p {
 #contact {
   padding: 1em;
   text-align: center;
+  margin: 0;
 }
 
 .menu-button-contact {
