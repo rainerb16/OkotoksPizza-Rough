@@ -325,7 +325,7 @@ li {
 /* Menu Page */
 
 #pizza-menu {
-  margin: 5rem;
+  margin: 2vh;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
   grid-gap: 1em;
@@ -382,7 +382,6 @@ li {
   width: 20rem;
   height: 20rem;
   object-fit: cover;
-  padding: 0.5rem;
 }
 
 button {
