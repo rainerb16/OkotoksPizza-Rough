@@ -1,2 +1,2 @@
 # OkotoksPizza-Rough
-School project - Okotoks Pizza rough
+School project - Rough sketch out and experimentation of this school project
